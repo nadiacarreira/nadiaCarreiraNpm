@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.35;
+    color: #6d7986;
+    background-color: transparent;
+}
+
+h1, h2, h3{
+	padding-bottom: 15px;
+}
+
+/*Menú 1: nav*/
+
+
+header{
+	background-color: #225e7f;
+}
+
+nav{
+	display: inline;
+	float: right;
+}
+
+header>div:first-of-type{
+	font-size: 16px;
+    background-color: rgb(193, 33, 39);
+    color: #f3d3d4;
+    vertical-align: middle;
+    padding: 10px 10px;
+}
+header nav ul{
+	text-align: right;
+	display: inline;
+}
+
+header nav ul li{
+	list-style: none;
+	display: inline;
+	margin: 12px;
+}
+
+header .top-left{
+	display: inline;
+}
+header .heart{
+	padding-right: 1%;
+}
+
+
+/*Menú 2: seacrh*/
+
+
+header>div:nth-of-type(2){
+	padding:15px;
+	height: 50px;
+}
+header .npm{
+	width: 7%;
+}
+header .search input{
+	width: 70%;
+    height: 30px;
+    background-color: transparent;
+    color: inherit;
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 5px;
+}
+header .search{
+	display: inline;
+	vertical-align: top;
+}
+.fa-search {
+    font-size: 1em;
+    color: #d2dce2;
+    padding: 7px;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+
+/*Menú 3: logIn*/
+
+
+header .logIn{
+    text-align: right;
+    float: right;
+    display: inline;
+}
+
+header .logIn img{
+	width: 25%;
+}
+
+
+
+/*section amazing things*/
+
+
+#contenido section:first-of-type {
+	    background-image: url("../images/city-scape.svg");
+	    box-sizing: border-box;
+}
+
+#contenido section:first-of-type div, #contenido section:nth-of-type(3) div{
+	    padding: 30px 21% 10%;
+}
+
+#contenido section:first-of-type div div {
+	width: 40%;
+}
+
+#contenido section:first-of-type div div h1{
+	font-size: 2em;
+	margin: 10px 0 10px 0;
+	color: white;
+}
+
+#contenido section:first-of-type div div p{
+	font-size: 1em;
+	color: white;
+}
+
+
+/*section collaboration*/
+
+
+#contenido section:nth-of-type(2) div{
+	width: 100%;
+	background-color: rgb(40, 53, 70);
+    color: #fff;
+    padding: 10px 0 10px 0;
+	display: inline-block;
+	text-align: center;
+}
+
+#contenido section:nth-of-type(2) div img{
+	width: 40%;
+}
+
+ #contenido section:nth-of-type(2) div .text{
+ 	width: 30%;
+ 	text-align: left;
+}
+  #contenido section:nth-of-type(2) div>div ul li{
+ 	line-height: 2em;
+}
+  #contenido section:nth-of-type(3){
+  	background-image: url("../images/forklift.svg");
+}
+
+/*section what is npm*/
+
+
+#contenido section:nth-of-type(3) div{
+	width: 20%;
+	color: white;
+}
+
+
+#contenido section:nth-of-type(3) div h3{
+	font-size: 2em;
+}
+
+
+
+/*section what is build*/
+
+
+#contenido section:last-of-type{
+	text-align: center;
+	padding: 25px;
+}
+#contenido section:last-of-type article{
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 40px;
+	margin-left: 2%;
+}
+#contenido section:last-of-type h1{
+	margin-top: 50px;
+
+}
+
+
+#contenido section:last-of-type article p span {
+    color: red;
+}
+
+
+/*Links*/
+
+
+.link {
+    border-radius: 20px;
+    color: #fff;
+    display: block;
+    font-family: 'open+Sans';
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    padding: 14px 20px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+}
+
+
+header nav ul li a, header .heart{
+	text-decoration: none;
+    color: #f3d3d4;
+}
+#contenido .link-npm{
+	background: rgb(240, 145, 51);
+	margin-top: 20px;
+	font-size: 1em;
+}
+
+
+.link-collaboration{
+    background: rgb(202, 56, 56);
+}
+.link-what{
+	background: rgb(52, 73, 94);
+}
+
+.link-log{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #ffae82;
+}
+
+.link-npm:hover{
+	color:#91ff82;
+}
+
+
+
+
+
+
+
+
+
+
